@@ -14,7 +14,12 @@ let contact = {
 console.log(`Hi, my name is ${firstName} ${lastName}. I live in ${contact.city}.`);
 console.log(`I am ${currentYear - birthYear} years old and currently ${isStudent ? "a student" : "not a student"}.`);
 
-//  Type Coercion & Comparison
+for (let i = 0; i < hobbies.length; i++) {
+  console.log(hobbies[i]);
+  ;
+}
+
+// Type Coercion & Comparison
 
 ageString = "25";
 ageNumber = 25;
@@ -25,7 +30,7 @@ ageString === ageNumber;
 console.log("comparison with ==", ageString == ageNumber);
 console.log("comparison with ===", ageString === ageNumber);
 
-console.log("Type of string:",typeof ageString);
+console.log("Type of string:", typeof ageString);
 console.log("Type of number:", typeof ageNumber);
 
 // score detector
