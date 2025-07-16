@@ -16,7 +16,6 @@ console.log(`I am ${currentYear - birthYear} years old and currently ${isStudent
 
 for (let i = 0; i < hobbies.length; i++) {
   console.log(hobbies[i]);
-  ;
 }
 
 // Type Coercion & Comparison
